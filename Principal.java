@@ -23,10 +23,12 @@ public class Principal {
     public static void ejecutar(String source){
        Scanner scanner= new Scanner(source);
         List<Token> tokens= scanner.scanTokens();
+        /* 
         for(Token token : tokens){
             System.out.println(token);
         }
-        /*
+         */
+        /* 
         Parser parser = new ASA(tokens);
         boolean exito = parser.parse(); // Llama al método parse y almacena el resultado
      

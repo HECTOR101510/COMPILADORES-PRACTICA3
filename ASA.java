@@ -10,14 +10,11 @@ public class ASA implements Parser{
         preanalisis=this.tokens.get(i);
     }
 
-    public void analisis(){
-        
-    }
 
 
     @Override
     public boolean parse(){
-        analisis();
+        //analisis();
         return !hayErrores;
     }
 }
