@@ -28,13 +28,13 @@ public class Principal {
             System.out.println(token);
         }
          */
-        /* 
+        
         Parser parser = new ASA(tokens);
         boolean exito = parser.parse(); // Llama al método parse y almacena el resultado
      
         if(exito){
             System.out.println("Análisis exitoso. No se encontraron errores.");
         }
-        */
+        
     }
 }
